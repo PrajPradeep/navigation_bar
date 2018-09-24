@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(../img/pra.JPG);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1{
+	font-size: 8vh;
+	text-align: center;
+	color: white
+}
+#navigation{
+	margin: 0;
+	width: 100%;
+	height: auto;
+	
+}
+
+#navigation ul{
+	list-style-type: none;
+	overflow: hidden;
+	
+
+}
+#navigation ul li{
+	width: 20%;
+	height: auto;
+	float: left;
+	font-size: 3vh;
+	background-color: transparent;
+
+}
+#navigation ul li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 2vh;
+	text-decoration: none;
+	opacity: 0.9;
+
+}
+#navigation ul li a:hover{
+	background-color:#333333;
+}
+
+#navigation ul li ul{
+
+	background-color:transparent;
+}
+
+#navigation ul li ul li{
+	float: none;
+	display:none;
+	text-align: center;
+	}
+#navigation ul li:hover ul li{
+	display:block;
+	width:100%;
+}
+
